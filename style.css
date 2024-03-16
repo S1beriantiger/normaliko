@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.specifications {
+  display: flex;
+  gap: 20px;
+}
+
+.cost {
+  display: flex;
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+.card {
+  height: 528px;
+  width: 360px;
+  display: inline-block;
+  position: relative;
+}
+.infoicon {
+  position: absolute;
+  right: 5px;
+}
+
+.images {
+  display: flex;
+}
+.dish-name {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 32px 0px 0px 24px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(110, 121, 140);
+  font-size: 16px;
+}
+.texts {
+  margin: 24px;
+}
+.specifications {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0px 24px 0px 24px;
+}
+.cost {
+  margin: 41px 0px 0px 24px;
+}
+button {
+  width: 114px;
+  height: 44px;
+  top: 454px;
+  left: 222px;
+  color: white;
+  background-color: rgba(46, 204, 113, 1);
+  border: none;
+  border-radius: 5px;
+  margin-top: -8px;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 32px;
+}
+.foodicons {
+  position: relative;
+  left: 280px;
+  bottom: 137px;
+}
+.foodicons2 {
+  position: relative;
+  left: 255px;
+  bottom: 140px;
+}
+.foodicons3 {
+  position: relative;
+  left: 310px;
+  bottom: 138px;
+}
